@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class kmtomiles {
+public class ConvertKmToMiles {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
