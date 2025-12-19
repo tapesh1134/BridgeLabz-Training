@@ -6,7 +6,7 @@ public class CompareSumOfNaturalNumbers {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter a number: ");
 		int input = scanner.nextInt();
-		if (input > 0) {
+		if (input < 0) {
 			System.out.println("Number is not natural");
 		} else {
 			int usingFormula = input * (input + 1) / 2;
