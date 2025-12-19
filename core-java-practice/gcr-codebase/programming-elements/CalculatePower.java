@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class power {
+public class CalculatePower {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
