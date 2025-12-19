@@ -1,5 +1,5 @@
 
-public class earthvolume {
+public class VolumeOfEarth {
 
     public static void main(String[] args) {
         int radius = 6378;
