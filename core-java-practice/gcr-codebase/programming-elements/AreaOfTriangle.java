@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class triangearea {
+public class AreaOfTriangle {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
