@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class squareperimeter {
+public class PerimeterOfSquare {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
