@@ -4,16 +4,16 @@ public class SumUntilZero {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		int sum = 0;
+		double sum = 0.0;
 		while (true) {
 			System.out.print("Enter a number and enter zero for stop: ");
-			int input = scanner.nextInt();
+			double input = scanner.nextDouble();
 			sum += input;
 			if (input == 0) {
 				break;
 			}
 		}
-		System.out.printf("Total sum: %d", sum);
+		System.out.printf("Total sum: %.2f", sum);
 		scanner.close();
 	}
 
