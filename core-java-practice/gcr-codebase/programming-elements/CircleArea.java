@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class areaofcircle {
+public class CircleArea {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
