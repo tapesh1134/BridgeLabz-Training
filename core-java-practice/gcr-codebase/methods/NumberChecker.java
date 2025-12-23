@@ -1,4 +1,6 @@
 
+import java.util.Scanner;
+
 public class NumberChecker {
 
     public static int countDigits(int number) {
@@ -72,5 +74,25 @@ public class NumberChecker {
 
         System.out.println("Smallest Digit: " + smallest);
         System.out.println("Second Smallest Digit: " + secondSmallest);
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+        int digitCount = countDigits(number);
+        int[] digits = storeDigits(number);
+        System.out.println("Number: " + number);
+        System.out.println("Count of Digits: " + digitCount);
+        System.out.print("Digits Array: ");
+        for (int d : digits) {
+            System.out.print(d + " ");
+        }
+        System.out.println();
+        System.out.printf("Is Duck Number: %d", isDuckNumber(digits));
+        System.out.printf("Is Armstrong Number: %d", isArmstrongNumber(number, digits));
+        findLargestAndSecondLargest(digits);
+        findSmallestAndSecondSmallest(digits);
+        scanner.close();
     }
 }
