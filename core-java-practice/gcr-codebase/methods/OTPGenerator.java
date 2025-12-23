@@ -1,6 +1,6 @@
 public class OTPGenerator {
 	public static int otpGenerator() {
-		return (int) (Math.random() * 1000000) + 1000000;
+		return (int) (Math.random() * 9000000) + 1000000;
 	}
 
 	public static boolean validateOTP(int[] otp) {
