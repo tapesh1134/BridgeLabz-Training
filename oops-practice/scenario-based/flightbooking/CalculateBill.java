@@ -1,0 +1,5 @@
+
+interface CalculateBill {
+
+    int calculateBill();
+}
