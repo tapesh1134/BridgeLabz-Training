@@ -3,7 +3,7 @@
 
 ## BridgeLabz Daily Progress Report 🚀
 
-This repository contains all the tasks, practice programs, and problem-solving work completed as part of *BridgeLabz Training.* 
+This repository contains all the tasks, practice programs, and problem-solving work completed as part of *BridgeLabz Training.*  
 
 ## BridgeLabz Training Folder Structure
 
@@ -16,7 +16,11 @@ BridgeLabz-Training/
 │   │
 │   ├── gcr-codebase/
 │   │   ├── programming-elements/
+│   │   └── arrays/
+│   │   ├── extras/
 │   │   └── control-flow/
+│   │   ├── string/
+│   │   └── methods/
 │   │
 │   ├── leet-code-codebase/
 │   │
@@ -25,15 +29,43 @@ BridgeLabz-Training/
 ├── oops-practice/                 (Branch & Folder Name)
 │   │
 │   ├── gcr-codebase/
-│   │   ├── inheritance/
-│   │   ├── encapsulation/
-│   │   └── polymorphism/
+│   │   ├── class-and-object/
+│   │   ├── java-constructor/
+│   │   └── inheritance/
+│   │   ├── static-final/
+│   │   └── encapsulation-polymorphism-abstract/
+│   │   ├── design-principles/
+│   │
+│   ├── scenario-based/
+│   │
+│   └── leet-code-codebase/
+|
+├── dsa-practice/                 (Branch & Folder Name)
+│   │
+│   ├── gcr-codebase/
+│   │   ├── runtime-analysis/
+│   │   ├── linear-binary-search/
+│   │   └── linkedlist/
+│   │   ├── sorting/
+│   │   └── stacks-queues-hashmaps/
 │   │
 │   ├── scenario-based/
 │   │
 │   └── leet-code-codebase/
 │
-├── reviews/                       (Branch Name)
+├── collections-practice/                 (Branch & Folder Name)
+│   │
+│   ├── gcr-codebase/
+│   │   ├── generics/
+│   │   ├── collections/
+│   │   └── streams/
+│   │   └── exceptions/
+│   │
+│   ├── scenario-based/
+│   │
+│   └── leet-code-codebase/
+│
+├── reviews/               (Branch & Folder Name)
 ```
 
 ## 📅 Daily Progress Overview
@@ -43,9 +75,10 @@ BridgeLabz-Training/
 - Introduction to BridgeLabz training process and guidelines
 - Completed *5 LeetCode problems* as the introductory task
 
-📂 Folder: leet-code-codebase
+📂 Folder: [core-java-practice/leet-code-codebase](https://github.com/tapesh1134/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)
 
 ---
+## Core Java Practice
 
 ### ✅ 17 December
 *Completed Level 1 Java Programs*
@@ -58,8 +91,7 @@ BridgeLabz-Training/
 - Conditional logic
 - Java syntax fundamentals
 
-
-📂 Folder: core-java-practice/gcr-codebase/programming-elements
+📂 Folder:[core-java-practice/gcr-codebase/programming-elements](https://github.com/tapesh1134/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
 
 ---
 
@@ -75,7 +107,7 @@ BridgeLabz-Training/
 - Control flow logic
 
 
-📂 Folder: core-java-practice/gcr-codebase/programming-elements
+📂 Folder: [core-java-practice/gcr-codebase/programming-elements](https://github.com/tapesh1134/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
 
 ---
 
@@ -94,7 +126,7 @@ BridgeLabz-Training/
 - switch statements
 - Boolean data types and logical operators
 
-📂 Folder: core-java-practice/gcr-codebase/control-flow
+📂 Folder: [core-java-practice/gcr-codebase/control-flow](https://github.com/tapesh1134/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
 
 ---
 
@@ -110,11 +142,10 @@ BridgeLabz-Training/
 - Modifying array elements
 - Using the length property of arrays
 - Multi-dimensional arrays
-- 2D arrays (matrix representation)
 - Accessing elements and finding size of multi-dimensional arrays
 - Using System.err() messages and System.exit() method
 
-📂 Folder: core-java-practice/gcr-codebase/arrays
+📂 Folder: [core-java-practice/gcr-codebase/arrays](https://github.com/tapesh1134/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
 
 ---
 
@@ -134,9 +165,8 @@ BridgeLabz-Training/
 - Java exceptions
 - Exception hierarchy
 - Exception types
-- java.lang.RuntimeException (unchecked exceptions)
 
-📂 Folder:core-java-practice/gcr-codebase/string
+📂 Folder:[core-java-practice/gcr-codebase/string](https://github.com/tapesh1134/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/string)
 
 ---
 
@@ -153,11 +183,8 @@ BridgeLabz-Training/
 - Static and non-static methods
 - Recursive methods
   
-📂 Folder:core-java-practice\gcr-codebase\java-methods
+📂 Folder:[core-java-practice/gcr-codebase/methods](https://github.com/tapesh1134/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
 
----
-
-### ✅ 24 December
 *Completed Java String & Built-in Methods Practice*
 - Practiced additional problems using Java built-in functions
 - Improved understanding of Java String handling
@@ -168,4 +195,214 @@ BridgeLabz-Training/
 - String manipulation techniques
 - Character handling in strings
 
-📂 Folder: core-java-practice\gcr-codebase\extras
+📂 Folder: [core-java-practice/gcr-codebase/extras](https://github.com/tapesh1134/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/extras)
+
+---
+
+## Object-Oriented Programming
+
+### ✅ 24 December 
+*Started OOPs Practice & Assignments*  
+- Created **oops-practice** branch for structured learning  
+- Practiced core **Object-Oriented Programming** concepts through assignments  
+- Learned and revised concepts from existing method-based programs  
+
+*Topics Covered:*  
+- Classes and Objects  
+- Object creation and usage  
+- Constructors (default & parameterized)  
+- Constructor-based initialization  
+- Revision of Java methods (static, non-static, parameters, return types)
+  
+📂 Folder: [oops-practice/gcr-codebase/class-and-object](https://github.com/tapesh1134/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/class-and-object)   
+📂 Folder: [oops-practice/gcr-codebase/java-constructors](https://github.com/tapesh1134/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/java-constructors)
+
+---
+
+### ✅ 25 December  
+*Learned Java OOP Keywords & Practice*  
+- Studied important **Java keywords** related to OOPs  
+- Completed assignments to understand their usage in programs  
+
+*Topics Covered:*  
+- `this` and `super` keywords  
+- `static` and `final` keywords  
+- `abstract` keyword  
+- `extends` and `implements`  
+
+📂 Folder:[oops-practice/gcr-codebase/static-final](https://github.com/tapesh1134/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/static-final)
+
+---
+
+### ✅ 26 December  
+*OOPs Pillars Practice*  
+- Learned and practiced the **four pillars of OOPs**  
+- Implemented concepts through simple examples  
+
+*Topics Covered:*  
+- Encapsulation  
+- Inheritance  
+- Polymorphism  
+- Abstraction
+
+📂 Folder:[oops-practice/gcr-codebase/encapsulation-polymorphism-abstract](https://github.com/tapesh1134/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/encapsulation-polymorphism-abstract)    
+📂 Folder:[oops-practice/gcr-codebase/inheritance](https://github.com/tapesh1134/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritance)
+
+---
+
+### ✅ 27 December  
+*Object Design & Modeling*  
+- Learned basics of **object-oriented design**  
+- Practiced creating design diagrams  
+
+*Topics Covered:*  
+- Class Diagram  
+- Object Diagram  
+
+📂 Folder:[oops-practice/gcr-codebase/design-principles](https://github.com/tapesh1134/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/design-principles)   
+
+---
+
+## Data Structure And Algorithms
+
+### ✅ 29 December  
+*Started DSA Practice*  
+- Created **dsa-practice** branch for data structures learning  
+- Learned and completed assignments on **Linked List**  
+
+*Topics Covered:*  
+- Singly Linked List  
+- Doubly Linked List  
+- Circular Linked List  
+
+📂 Folder:[dsa-practice/gcr-codebase/linkedlist](https://github.com/tapesh1134/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linkedlist)
+
+---
+
+### ✅ 30 December  
+*DSA Practice – Core Data Structures & Algorithms*  
+- Learned and practiced fundamental **DSA concepts**  
+- Completed assignments with implementation  
+
+*Topics Covered:*  
+- Stack  
+- Queue  
+- Hashing Function  
+- Sorting Algorithms  
+
+📂 Folder:[dsa-practice/gcr-codebase/stacks-queues-hashmaps](https://github.com/tapesh1134/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stacks-queues-hashmaps)      
+📂 Folder:[dsa-practice/gcr-codebase/sorting](https://github.com/tapesh1134/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/sorting)
+
+---
+
+### ✅ 31 December  
+*DSA Practice – Searching Algorithms*  
+- Learned and implemented basic **searching techniques**  
+- Practiced algorithms through assignments  
+
+*Topics Covered:*  
+- Linear Search  
+- Binary Search
+
+📂 Folder:[dsa-practice/gcr-codebase/linear-binary-search](https://github.com/tapesh1134/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linear-binary-search)  
+
+---
+
+### ✅ 1 January  
+*DSA Concepts – Runtime Analysis*  
+- Learned basics of **runtime analysis**  
+- Practiced analyzing program performance  
+
+*Topics Covered:*  
+- Time Complexity  
+- Best, Average, and Worst Case Analysis  
+- Big-O notation basics  
+
+📂 Folder:[dsa-practice/gcr-codebase/runtime-analysis](https://github.com/tapesh1134/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/runtime-analysis)  
+
+---
+
+### ✅ 2 January  
+*DSA Practice – Scenario-Based Problems*  
+- Solved **real-world scenario–based DSA problems**  
+- Applied learned data structures and algorithms  
+
+📂 Folder:[dsa-practice/scenario-based](https://github.com/tapesh1134/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)  
+
+---
+
+## Java Collections
+
+### ✅ 3 January  
+*Started Collections Practice*  
+- Created **collections-practice** branch  
+- Learned and practiced **Generics** in Java
+
+📂 Folder: [collection-practice/gcr-codebase/generics](https://github.com/tapesh1134/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/generics)    
+
+---
+
+### ✅ 5 January  
+*Review*  
+- Created **reviews** branch  
+- Worked on assigned coding problems
+- Practiced Java concepts through hands-on coding
+
+📂 Folder: [reviews/](https://github.com/tapesh1134/BridgeLabz-Training/tree/reviews/reviews)   
+
+---
+
+### ✅ 6 January  
+*Viva*
+- Attended viva session
+- Answered questions related to completed assignments
+
+---
+
+### ✅ 7 January 
+*Java Collections Framework*  
+- Solved problems using List, Set, Queue, and Map interfaces
+- Implemented custom logic without using built-in methods 
+
+*Topics Covered:*  
+- List, Set, Queue, and Map interfaces
+- Data manipulation and traversal
+- Real-world use cases using Collections
+
+📂 Folder: [collection-practice/gcr-codebase/collections](https://github.com/tapesh1134/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/collections)   
+
+---
+
+### ✅ 8 January 
+*Java Streams & File Handling*  
+- Implemented file read/write operations using byte, character, and buffered streams
+- Handled large files efficiently and applied exception handling best practices
+
+*Topics Covered:*  
+- FileInputStream, FileOutputStream, Buffered Streams
+- Serialization & Deserialization, ByteArray Streams
+- Data Streams, Piped Streams, and File Processing Techniques
+
+📂 Folder: [collection-practice/gcr-codebase/streams](https://github.com/tapesh1134/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/streams)
+
+---
+
+### ✅ 9 January 
+*Exception Handling*  
+- Practiced handling checked, unchecked, and custom exceptions
+- Implemented exception propagation, multiple catch blocks, and nested try-catch
+
+*Topics Covered:*  
+- Checked vs Unchecked Exceptions
+- Custom Exceptions & Exception Propagation
+- try-catch, try-with-resources, and finally block
+
+📂 Folder: [collection-practice/gcr-codebase/exceptions](https://github.com/tapesh1134/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/exceptions)
+
+---
+
+
+
+
+
+
