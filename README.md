@@ -401,8 +401,17 @@ BridgeLabz-Training/
 
 ---
 
+### ✅ 12 January 
+*Regex & Unit Testing*  
+- Learned regular expressions and their usage in Java
+- Practiced validation patterns and text processing using Regex
+- Introduced to JUnit framework and writing unit test cases
 
+*Topics Covered:*  
+- Regex: Metacharacters, Quantifiers, Common Validation Patterns
+- Java Regex API: Pattern, Matcher, and core methods
+- JUnit: Annotations, Test Class Structure, and Assertions
 
+📂 Folder: [collection-practice/gcr-codebase/regex-junit](https://github.com/tapesh1134/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regex-junit)
 
-
-
+---
