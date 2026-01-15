@@ -401,7 +401,7 @@ BridgeLabz-Training/
 
 ---
 
-### ✅ 12 January 
+### ✅ 12, 13 January 
 *Regex & Unit Testing*  
 - Learned regular expressions and their usage in Java
 - Practiced validation patterns and text processing using Regex
