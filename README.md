@@ -15,12 +15,11 @@ BridgeLabz-Training/
 ├── core-java-practice/            (Branch & Folder Name)
 │   │
 │   ├── gcr-codebase/
-│   │   ├── programming-elements/
-│   │   └── arrays/
-│   │   ├── extras/
-│   │   └── control-flow/
-│   │   ├── string/
-│   │   └── methods/
+|   |   ├── Arrays/
+│   │   ├── control-flow/
+│   │   ├── methods/                (extras of method are in same folder)
+│   │   ├── programming-elements/ 
+│   │   └── string/                 (extras of String are in same folder)
 │   │
 │   ├── leet-code-codebase/
 │   │
@@ -30,11 +29,11 @@ BridgeLabz-Training/
 │   │
 │   ├── gcr-codebase/
 │   │   ├── class-and-object/
-│   │   ├── java-constructor/
-│   │   └── inheritance/
-│   │   ├── static-final/
-│   │   └── encapsulation-polymorphism-abstract/
 │   │   ├── design-principles/
+│   │   ├── encapsulation-polymorphism-abstract/
+│   │   ├── inheritance/
+│   │   ├── java-constructor/
+│   │   └── static-final/
 │   │
 │   ├── scenario-based/
 │   │
@@ -43,9 +42,9 @@ BridgeLabz-Training/
 ├── dsa-practice/                 (Branch & Folder Name)
 │   │
 │   ├── gcr-codebase/
-│   │   ├── runtime-analysis/
 │   │   ├── linear-binary-search/
-│   │   └── linkedlist/
+│   │   ├── linkedlist/
+│   │   ├── runtime-analysis/
 │   │   ├── sorting/
 │   │   └── stacks-queues-hashmaps/
 │   │
@@ -56,10 +55,15 @@ BridgeLabz-Training/
 ├── collections-practice/                 (Branch & Folder Name)
 │   │
 │   ├── gcr-codebase/
-│   │   ├── generics/
+│   │   ├───annotations-reflection/
 │   │   ├── collections/
+│   │   ├── exceptions/
+│   │   ├── generics/
+│   │   ├── regex-junit/
+│   │   │   │
+│   │   │   └──junit/
+│   │   │
 │   │   └── streams/
-│   │   └── exceptions/
 │   │
 │   ├── scenario-based/
 │   │
@@ -415,3 +419,21 @@ BridgeLabz-Training/
 📂 Folder: [collection-practice/gcr-codebase/regex-junit](https://github.com/tapesh1134/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regex-junit)
 
 ---
+### ✅ 14, 15, 16 January
+
+*Annotations & Reflection*
+- Learned usage of built-in and custom annotations in Java
+- Practiced runtime inspection and modification of classes using Reflection
+- Worked with metadata processing, validation, and dynamic method invocation
+- Implemented real-world use cases such as logging, validation, and access control
+
+*Topics Covered:*
+- Built-in Annotations: @Override, @Deprecated, @SuppressWarnings
+- Custom Annotations: Definition, usage, and runtime processing
+- Meta-Annotations: @Retention, @Target, @Repeatable
+- Java Reflection API: Class, Field, Method, Constructor
+- Accessing and modifying private fields and methods using Reflection
+- Dynamic object creation and method invocation
+- Processing annotations at runtime using Reflection
+
+📂 Folder: [collection-practice/gcr-codebase/annotations-reflection](https://github.com/tapesh1134/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/annotations-reflection)
