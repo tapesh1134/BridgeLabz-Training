@@ -17,7 +17,6 @@ public class AddressBook {
     }
 
     public Contact getContact(String inputName) {
-        System.out.println(inputName);
         Contact contact = contactLibrary.get(inputName.toLowerCase());
         return contact;
     }
