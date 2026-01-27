@@ -16,27 +16,40 @@ public class App
     {
         Scanner scanner = new Scanner(System.in);
         boolean run = true;
+        String inputName;
+        Contact contact;
         AddressBookService service = new AddressBookService();
         AddressBookUtil util = new AddressBookUtil();
         while(run){
             System.out.println("\n----Enter a option----");
             System.out.println("Add Book: (1)");
             System.out.println("Fetch contact: (2)");
-            System.out.println("Exit: (0)");
+            System.out.println("Update contact: (3)");
+            System.out.println("Exit: (-1)");
 
             int input = scanner.nextInt();
             scanner.nextLine();
             switch (input){
                 case 1:
-                    Contact contact = util.createContact();
+                    contact = util.createContact();
                     service.addContact(contact);
                     break;
                 case 2:
                     System.out.println("Enter name of person: ");
-                    String inputName = scanner.nextLine();
-                    System.out.println(service.getContact(inputName));
+                    inputName = scanner.nextLine();
+                    contact = service.getContact(inputName);
+                    System.out.println("\n----Details----");
+                    System.out.println(contact.toString());
                     break;
-                case 0:
+                case 3:
+                    System.out.println("Enter name of person: ");
+                    inputName = scanner.nextLine();
+                    contact = util.editContact(service.getContact(inputName));
+                    System.out.println("\n----Updated Details----");
+                    System.out.println(contact.toString());
+                    service.addContact(contact);
+                    break;
+                case -1:
                     run = false;
                     break;
                 default:
