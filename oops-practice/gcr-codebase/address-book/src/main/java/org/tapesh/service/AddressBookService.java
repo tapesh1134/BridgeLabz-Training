@@ -9,11 +9,11 @@ public class AddressBookService {
         addressBook.addContact(contact);
     }
 
-    public String getContact(String inputName) {
+    public Contact getContact(String inputName) {
         Contact contact = addressBook.getContact(inputName);
         if (contact == null) {
-            return "Contact not found.";
+            return new Contact();
         }
-        return  contact.toString();
+        return  contact;
     }
 }
