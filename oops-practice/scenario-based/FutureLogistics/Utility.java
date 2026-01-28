@@ -3,6 +3,10 @@ public class Utility {
 
     public GoodsTransport parseDetails(String input) {
         String[] details = input.split(":");
+        if (!validateTransportId(details[0])) {
+            System.out.println("Transport id " + details[0] + "is invalid");
+            return null;
+        }
         GoodsTransport transport;
         if (details[3].equals("BrickTransport")) {
             transport = new BrickTransport(details[0], details[1], details[2], Float.parseFloat(details[4]), Integer.parseInt(details[5]), Float.parseFloat(details[6]));
