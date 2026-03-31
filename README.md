@@ -15,7 +15,7 @@ BridgeLabz-Training/
 ├── core-java-practice/            (Branch & Folder Name)
 │   │
 │   ├── gcr-codebase/
-|   |   ├── Arrays/
+│   │   ├── Arrays/
 │   │   ├── control-flow/
 │   │   ├── methods/                (extras of method are in same folder)
 │   │   ├── programming-elements/ 
@@ -29,6 +29,7 @@ BridgeLabz-Training/
 │   │
 │   ├── gcr-codebase/
 │   │   ├── class-and-object/
+│   │   ├── address-book/
 │   │   ├── design-principles/
 │   │   ├── encapsulation-polymorphism-abstract/
 │   │   ├── inheritance/
@@ -38,7 +39,18 @@ BridgeLabz-Training/
 │   ├── scenario-based/
 │   │
 │   └── leet-code-codebase/
-|
+│
+├── java8-features-practice/                 (Branch & Folder Name)
+│   │
+│   └── gcr-codebase/
+│       ├── collectors/
+│       ├── functional-interfaces/
+│       ├── lambda-expressions/
+│       ├── stream-api/
+│       └── workshop/
+│           │
+│           └── smartcity/
+│
 ├── dsa-practice/                 (Branch & Folder Name)
 │   │
 │   ├── gcr-codebase/
@@ -52,16 +64,43 @@ BridgeLabz-Training/
 │   │
 │   └── leet-code-codebase/
 │
+├── dbms-practice/         (Branch & Folder Name)
+│   │
+│   └── gcr-codebase/
+│       │
+│       └── health-clinic-app/
+│
+├── design-patterns-practice/         (Branch & Folder Name)
+│   │
+│   └── gcr-codebase/
+│       │
+│       └── library-management-system/
+│
+├── io-programming-practice/         (Branch & Folder Name)
+│   │
+│   └── gcr-codebase/
+│       ├── csv-data-handling/
+│       └── json/
+│
+├── multi-threading-practice/         (Branch & Folder Name)
+│   │
+│   └── gcr-codebase/
+│       │
+│       └── multi-threading
+│
 ├── collections-practice/                 (Branch & Folder Name)
 │   │
 │   ├── gcr-codebase/
 │   │   ├───annotations-reflection/
+│   │   │   │
+│   │   │   ├───annotations/
+│   │   │   │
+│   │   │   └───reflection/
+│   │   │
 │   │   ├── collections/
 │   │   ├── exceptions/
 │   │   ├── generics/
 │   │   ├── regex-junit/
-│   │   │   │
-│   │   │   └──junit/
 │   │   │
 │   │   └── streams/
 │   │
@@ -69,7 +108,7 @@ BridgeLabz-Training/
 │   │
 │   └── leet-code-codebase/
 │
-├── reviews/               (Branch & Folder Name)
+└──  reviews/               (Branch & Folder Name)
 ```
 
 ## 📅 Daily Progress Overview
@@ -437,3 +476,173 @@ BridgeLabz-Training/
 - Processing annotations at runtime using Reflection
 
 📂 Folder: [collection-practice/gcr-codebase/annotations-reflection](https://github.com/tapesh1134/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/annotations-reflection)
+---
+
+### ✅ 17, 18, 19, 20, 21, 22 January  
+*DSA, File Handling, JSON Processing & Application Development*
+
+-Learned and implemented core Data Structures with real-world problem statements  
+-Practiced building systems using LinkedList, Stack, Queue, and HashMap  
+-Worked extensively with CSV file handling using OpenCSV  
+-Performed data processing operations like filtering, searching, sorting, and aggregation  
+-Implemented JSON conversion using custom classes and object mapping  
+-Built end-to-end Java mini projects with proper modular design  
+-Applied refactoring techniques to improve code structure and maintainability  
+
+*Topics Covered:*  
+-Data Structures & Problem Solving:  
+ -Doubly Linked List (Browser Tab History)  
+ -Circular Linked List & Queue (Traffic Roundabout System)  
+ -HashMap & LinkedList (Library Bookshelf System)  
+
+-CSV File Handling (OpenCSV):  
+ -Reading and writing CSV files  
+ -Mapping CSV data to POJO (Student, Employee)  
+ -Counting records excluding headers  
+ -Filtering students based on marks  
+ -Searching employees by name  
+ -Salary processing (Top N highest salaries, department-wise increment)  
+
+-JSON Processing:  
+ -Converting Java objects to JSON format  
+ -Custom JSON Converter implementation  
+ -Refactoring to create JSON objects directly  
+
+-Core Java Application Development:  
+ -Address Book System:  
+  -Add, update, and delete contacts  
+  -Support for multiple address books with unique names  
+ -Student grade calculation with validation and edge case handling  
+ -Basic Flight Booking System with search and booking functionality  
+
+📂 Folder: [io-programming-practice/gcr-codebase/csv-handling](https://github.com/tapesh1134/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/csv-handling)
+📂 Folder: [io-programming-practice/gcr-codebase/json](https://github.com/tapesh1134/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/json)
+📂 Folder: [oops-practice/gcr-codebase/address-book](https://github.com/tapesh1134/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/address-book)
+📂 Folder: [dsa-practice/scenario-based](https://github.com/tapesh1134/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+
+---
+
+### ✅ 23, 24, 25, 26 January  
+*Java 8 Features, JSON Processing & Functional Programming*
+
+-Explored Java 8 features like Lambda Expressions and Functional Interfaces  
+-Implemented real-world use cases using functional programming concepts  
+-Worked extensively with JSON parsing, transformation, and validation  
+-Enhanced existing projects with better structure and modular design  
+-Applied regex for data validation and filtering logic  
+-Improved data handling with custom utilities and structured processing  
+
+*Topics Covered:*  
+-Java 8 & Functional Programming:  
+ -Lambda Expressions for concise behavior implementation  
+ -Functional Interfaces for defining custom actions  
+ -Real-world automation (Smart Home Lighting System)  
+
+-JSON Processing & Utilities:  
+ -Parsing JSON files with selective field extraction (name, email)  
+ -Merging multiple JSON objects into a single structure  
+ -Converting object lists into JSON arrays  
+ -Reading JSON key-value pairs using utility classes  
+ -Filtering JSON data based on conditions (age-based filtering)  
+
+-Validation & Data Processing:  
+ -Email validation using Regex (JsonEmailValidator)  
+ -Data transformation and structured output handling  
+
+-Core Java Implementations:  
+ -Custom sorting logic for E-commerce products  
+ -Converting employee names to uppercase using stream operations  
+ -Hospital patient ID and name display system  
+
+-Project Enhancements:  
+ -StateDictionary implementation for managing contacts by state  
+ -Refactored AddressBookService to integrate state-based grouping  
+ -Improved project structure and folder organization  
+ 
+ 📂 Folder: [io-programming-practice/gcr-codebase/json](https://github.com/tapesh1134/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/json)
+ 📂 Folder: [oops-practice/gcr-codebase/address-book](https://github.com/tapesh1134/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/address-book)
+ 📂 Folder: [java8-features-practice/gcr-codebase/](https://github.com/tapesh1134/BridgeLabz-Training/tree/java8-features-practice/java8-features-practice/gcr-codebase)
+ 
+ ---
+ 
+### ✅ 27, 28, 29, 30, 31 January  
+*Streams, Functional Programming & System Design*
+
+-Strengthened Java 8 concepts using Streams, Lambda, Predicate, and Function  
+-Implemented real-world systems like Food Delivery, Attendance, Checkout, Parcel Tracking, and Banking  
+-Enhanced Address Book with search, sorting, and grouping by city/state  
+-Applied Stream API for filtering, grouping, aggregation, and transformations  
+-Built validation and alert systems (temperature, security, risk assessment)  
+-Used interfaces and abstraction for scalable design (Payment, Transport, Rental systems)  
+-Practiced async execution with Runnable and constructor references  
+
+*Topics Covered:*  
+-Stream Operations: filter, map, sorted, forEach, collect  
+-Data Aggregation: salary avg, revenue summary, word count, grouping  
+-Functional Interfaces: Predicate, Function, Constructor Reference  
+-Address Book Enhancements (City/State Dictionary, search & sort)  
+-Real-world Systems: Delivery, Attendance, Checkout, Parcel, Bank  
+-Validation Systems: Password strength, alerts, filtering logic  
+-Interface-based Design & Modular Architecture  
+
+ 📂 Folder: [oops-practice/gcr-codebase/address-book](https://github.com/tapesh1134/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/address-book)
+ 📂 Folder: [java8-features-practice/gcr-codebase/](https://github.com/tapesh1134/BridgeLabz-Training/tree/java8-features-practice/java8-features-practice/gcr-codebase)
+ 
+ ---
+ 
+ ### ✅ 1, 2, 3, 4, 5, 6, 7 February  
+*Multithreading, DBMS, System Design & Code Quality*
+
+-Worked on multithreading concepts with real-world simulations (banking, downloads, scheduling)  
+-Implemented DBMS operations with CRUD functionalities and SQL queries  
+-Built scalable systems using modular design and Java 8 features  
+-Practiced thread lifecycle monitoring and concurrent task execution  
+-Enhanced system design skills with domain-based implementations  
+-Analyzed code quality using SonarQube and identified improvement areas  
+
+*Topics Covered:*  
+-Multithreading:  
+ -Thread creation and management  
+ -Thread state monitoring  
+ -Concurrent systems (Banking, Download Manager, Print Scheduler, Restaurant)  
+
+-DBMS (JDBC + SQL):  
+ -Add, Update, Search Patient Records  
+ -Input validation with database persistence  
+ -SQL operations (INSERT, UPDATE, SELECT)  
+
+-System Design & Applications:  
+ -Food Delivery System  
+ -Smart City Transport & Service System  
+ -Library Management System (roles & book handling)  
+ -Creator Stats & Vessel Management Systems  
+
+-Code Quality & Tools:  
+ -SonarQube analysis and report evaluation  
+ 
+  📂 Folder: [multi-threading-practice/gcr-codebase/multi-threading](https://github.com/tapesh1134/BridgeLabz-Training/tree/multi-threading-practice/multi-threading-practice/gcr-codebase/multi-threading)
+  📂 Folder: [dbms-practice/gcr-codebase/health-clinic-app](https://github.com/tapesh1134/BridgeLabz-Training/tree/dbms-practice/dbms-practice/gcr-codebase/healthclinic-app)
+  📂 Folder: [design-patterns-practice/gcr-codebase/library-management-system](https://github.com/tapesh1134/BridgeLabz-Training/tree/design-patterns-practice/design-patterns-practice/gcr-codebase/library-management-system)
+  
+  ---
+  
+  ### ✅ 16, 17, 18, 19, 20, 21 February  
+*OOPs, Collections, Layered Architecture & Testing*
+
+-Implemented Employee Wage Calculator using layered architecture (service, repository, model)  
+-Added comprehensive unit test cases to ensure reliability across all layers  
+-Enhanced Address Book with advanced sorting (city, state, pincode)  
+-Refactored existing functionalities to support multi-address book operations  
+-Focused on clean architecture, scalability, and maintainability  
+
+*Topics Covered:*  
+-Layered Architecture (Separation of Concerns)  
+-Unit Testing across service and data layers  
+-Collections for data handling and sorting  
+-OOP Principles in real-world applications  
+-Refactoring for scalability (multi-address book support)  
+
+📂 Folder: [oops-practice/gcr-codebase/address-book](https://github.com/tapesh1134/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/address-book)
+📂 Folder: [collection-practice/scenario-based/employeeWage](https://github.com/tapesh1134/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based/employeewage)
+
+---
