@@ -101,8 +101,6 @@ BridgeLabz-Training/
 │   │   ├── exceptions/
 │   │   ├── generics/
 │   │   ├── regex-junit/
-│   │   │   │
-│   │   │   └──junit/
 │   │   │
 │   │   └── streams/
 │   │
